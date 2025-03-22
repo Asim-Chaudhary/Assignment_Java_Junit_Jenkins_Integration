@@ -30,5 +30,10 @@ pipeline
                 } 
 
         }               
+    } Post {
+
+        failure {
+        }
+
     }
 }
