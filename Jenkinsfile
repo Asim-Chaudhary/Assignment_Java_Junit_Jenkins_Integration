@@ -8,7 +8,9 @@ pipeline
         {
             steps 
                 {
-                echo 'Build App'
+                    git 'https://github.com/Asim-Chaudhary/Practice_assignment.git'
+                    bat '.\mvnw clean compile'
+                
                 }
 
         }
@@ -30,7 +32,5 @@ pipeline
                 } 
 
         }               
-    } 
-
-    
+    }
 }
