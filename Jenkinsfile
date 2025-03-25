@@ -9,7 +9,7 @@ pipeline
             steps 
                 {
                     git branch : 'main', url: 'https://github.com/Asim-Chaudhary/Assignment_Java_Junit_Jenkins_Integration.git'
-                    bat '.mvnw clean compile'
+                    bat 'mvn clean compile'
                 
                 }
 
