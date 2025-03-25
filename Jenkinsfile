@@ -9,7 +9,7 @@ pipeline
             steps 
                 {
                     git 'https://github.com/Asim-Chaudhary/Practice_assignment.git'
-                    bat '.\mvnw clean compile'
+                    bat '.mvnw clean compile'
                 
                 }
 
